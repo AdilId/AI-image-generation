@@ -1,0 +1,65 @@
+.Info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+  background-color: dodgerblue;
+  padding: 30px;
+  width: 500px;
+  border-radius: 6px;
+}
+.Info .img,
+.Info .circle {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.Info .img img,
+.Info .circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.Info .img .circle {
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+.Info .img a {
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translate(80%);
+  font-size: 22px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Info .name {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Info .email {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Info .password {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

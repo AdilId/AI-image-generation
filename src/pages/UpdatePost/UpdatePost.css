@@ -1,0 +1,17 @@
+.update-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.update-form {
+  padding: 60px;
+}
+.update-form input {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.update-form button {
+  padding: 20px;
+  cursor: pointer;
+}

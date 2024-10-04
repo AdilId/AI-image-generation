@@ -1,0 +1,33 @@
+header {
+  background-color: dodgerblue;
+  padding: 18px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 8px 7px 0px #8f8f8f;
+}
+header img {
+  width: 200px;
+}
+header .links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+header .links a,
+header .links button {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+header .links button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  cursor: pointer;
+}
+header .links a:not(:last-of-type) {
+  margin-right: 20px;
+}

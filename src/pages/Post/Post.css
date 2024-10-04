@@ -1,0 +1,77 @@
+.load {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.load div {
+  width: 20px;
+  height: 20px;
+  background-color: dodgerblue;
+  border-radius: 50%;
+  margin: 0 5px;
+  animation-name: up-and-down;
+  animation-duration: 0.9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.load .two {
+  animation-delay: 0.3s;
+}
+
+.load .three {
+  animation-delay: 0.6s;
+}
+
+@keyframes up-and-down {
+  to {
+    opacity: 0.2;
+    transform: translateY(-20px);
+  }
+}
+.error {
+  font-size: 20px;
+  margin-top: 100px;
+  color: red;
+  text-align: center;
+}
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+.post-container h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.post-container img {
+  width: 512px;
+  height: 512px;
+  margin-bottom: 30px;
+}
+.post-container p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.post-container .actions {
+  width: 512px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.post-container .actions a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 15px;
+}
+.post-container .actions button {
+  font-size: 22px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}

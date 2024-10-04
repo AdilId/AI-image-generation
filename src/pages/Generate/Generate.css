@@ -1,0 +1,43 @@
+.generate {
+  width: 100%;
+  padding: 60px;
+}
+.generate input {
+  padding: 20px;
+}
+.generate button {
+  padding: 20px;
+  cursor: pointer;
+}
+.loader-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  border-radius: 50%;
+  border: 5px solid dodgerblue;
+  border-left-color: transparent;
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
